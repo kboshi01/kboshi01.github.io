@@ -72,7 +72,7 @@
                         <br>
                         <div>
                             <span class="months"></span>
-                            <div class="smalltext">months</div>
+                            <div class="smalltext">Weeks</div>
                         </div>
                     </div>
                 </div>
@@ -99,7 +99,7 @@
         var minutes = Math.floor((t / 1000 / 60) % 60);
         var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
         var days = Math.floor(t / (1000 * 60 * 60 * 24));
-        var months = Math.floor(days /30);
+        var months = Math.floor(days /7);
         return {
             'total': t,
             'months': months,
