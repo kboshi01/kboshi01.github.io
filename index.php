@@ -1,3 +1,4 @@
+<?php
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -140,3 +141,4 @@
     initializeClock('clockdiv', deadline);
 </script>
 </html>
+?>
